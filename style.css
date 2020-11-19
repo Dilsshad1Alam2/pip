@@ -19,6 +19,13 @@ body .container {
       -ms-flex-pack: center;
           justify-content: center;
   height: 70vh;
+  margin: 0 1rem;
+}
+
+
+.text-one, .note {
+  font-size: 1rem;
+  font-family: verdana;
 }
 
 .log0 {
@@ -177,4 +184,24 @@ body .container {
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
 }
+
+.to-hide-from-body{
+  visibility: hidden;
+}
 /*# sourceMappingURL=style.css.map */
+
+@media(max-width:900px){
+  .to-hide{
+    visibility: hidden;
+    overflow: hidden;
+  }
+
+  .to-hide-from-body{
+    visibility:visible;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    padding-top: 40vh;
+    margin: 0 1rem;
+  }
+}
