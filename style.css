@@ -229,11 +229,6 @@ body .container {
     margin-right: 5%;
   }
 
-  .to-make-display-none{
-    display: none;
-  }
-
-
 /*# sourceMappingURL=style.css.map */
 
 @media(max-width:900px){
@@ -259,14 +254,12 @@ body .container {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     
   }
   
   .button{
     display: none;
-  }
-  .to-make-display-none{
-    display: block;
   }
 
   }
