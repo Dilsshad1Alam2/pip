@@ -4,6 +4,8 @@ body {
   background: #e2dad8;
 }
 
+/* for home page */
+
 body .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,12 +125,9 @@ body .container {
   -webkit-box-shadow: inset 0 0 0 var(--border-size) currentcolor;
           box-shadow: inset 0 0 0 var(--border-size) currentcolor;
   -webkit-transition: background 0.8s ease;
-  transition: background 0.8s ease;
+  transition:  0.8s ease;
 }
 
-.button:hover {
-  background: rgba(100, 0, 0, 0.03);
-}
 
 .button__horizontal, .button__vertical {
   position: absolute;
@@ -188,6 +187,50 @@ body .container {
 .to-hide-from-body{
   visibility: hidden;
 }
+
+.btn-hover:hover{
+  background:#444053;
+  color: #e2dad8;
+}
+
+.btn-start{
+  padding: 1em 3em;
+  margin-bottom: 1rem;
+}
+
+/* how to use page */
+
+.instructions{
+  color:#444053 ;
+  font-size: 1.5rem;
+}
+
+/* about page */
+
+.container-about{
+  font-size: 1.5rem;
+  color:#444053;
+  display: grid;
+  margin: 0 1rem;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+  .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+
+
+
 /*# sourceMappingURL=style.css.map */
 
 @media(max-width:900px){
