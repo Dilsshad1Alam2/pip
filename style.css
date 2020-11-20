@@ -229,11 +229,18 @@ body .container {
     margin-right: 5%;
   }
 
+  .to-make-display-none{
+    display: none;
+  }
 
 
 /*# sourceMappingURL=style.css.map */
 
 @media(max-width:900px){
+
+.body{
+  overflow: hidden;
+}
   .to-hide{
     visibility: hidden;
     overflow: hidden;
@@ -247,4 +254,23 @@ body .container {
     padding-top: 40vh;
     margin: 0 1rem;
   }
-}
+
+  .container-about{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .button{
+    display: none;
+  }
+  .to-make-display-none{
+    display: block;
+  }
+
+  }
+
+
+
+
